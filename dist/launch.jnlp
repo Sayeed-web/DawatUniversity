@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>DawatAdministration</title>
+        <vendor>Ahmadullah taheri</vendor>
+        <homepage href=""/>
+        <description>DawatAdministration</description>
+        <description kind="short">DawatAdministration</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="DawatAdministration.jar" main="true"/>
+    <jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/beansbinding-1.2.1.jar"/>
+<jar href="lib/mysql-connector-java-8.0.27.jar"/>
+<jar href="lib/itext.jar"/>
+</resources>
+    <application-desc main-class="login">
+    </application-desc>
+</jnlp>
